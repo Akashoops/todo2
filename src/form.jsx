@@ -2,10 +2,14 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 
 
+
+
 const RegisterForm = () => {
     const { register, handleSubmit } = useForm();
     const handleRegistration = (data) => console.log(data);
   
+
+
 
 
     
@@ -27,6 +31,8 @@ const RegisterForm = () => {
     </form>
       
     );
+
+
 
 
 }
